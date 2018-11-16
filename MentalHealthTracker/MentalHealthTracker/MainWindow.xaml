@@ -5,8 +5,123 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MentalHealthTracker"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="Mental Health Tracker" Height="700" Width="1000">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="30"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Label Grid.Row="0" Grid.Column="1" VerticalAlignment="Top">
+                Jan
+            </Label>
+            <Label Grid.Row="0" Grid.Column="2">
+                Feb
+            </Label>
+            <Label Grid.Row="0" Grid.Column="3">
+                Mar
+            </Label>
+            <Label Grid.Row="0" Grid.Column="4">
+                Apr
+            </Label>
+            <Label Grid.Row="0" Grid.Column="5">
+                May
+            </Label>
+            <Label Grid.Row="0" Grid.Column="6">
+                Jun
+            </Label>
+            <Label Grid.Row="0" Grid.Column="7">
+                Jul
+            </Label>
+            <Label Grid.Row="0" Grid.Column="8">
+                Aug
+            </Label>
+            <Label Grid.Row="0" Grid.Column="9">
+                Sep
+            </Label>
+            <Label Grid.Row="0" Grid.Column="10">
+                Oct
+            </Label>
+            <Label Grid.Row="0" Grid.Column="11">
+                Nov
+            </Label>
+            <Label Grid.Row="0" Grid.Column="12">
+                Dec
+            </Label>
+            <Label Grid.Row="1" Grid.Column="0">
+                1
+            </Label>
+            <Label Grid.Row="2" Grid.Column="0">
+                2
+            </Label>
+            <Label Grid.Row="3" Grid.Column="0">
+                3
+            </Label>
+            <Label Grid.Row="4" Grid.Column="0">
+                4
+            </Label>
+            <Label Grid.Row="5" Grid.Column="0">
+                5
+            </Label>
+            <Label Grid.Row="6" Grid.Column="0">
+                6
+            </Label>
+            <Label Grid.Row="7" Grid.Column="0">
+                7
+            </Label>
+        </Grid>
+        <Label Name="YearOverview" Grid.Row="0">
+            An Overview of Your Year:
+        </Label>
     </Grid>
 </Window>
