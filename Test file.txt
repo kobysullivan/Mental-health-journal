@@ -1,2 +1,3 @@
 Test file
 Trying to change this
+Another test
