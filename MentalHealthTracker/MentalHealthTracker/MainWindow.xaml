@@ -195,5 +195,6 @@
         <Label Name="YearOverview" Grid.Row="0">
             An Overview of Your Year:
         </Label>
+        <Button Grid.Row="32" Name="AddNewEntry" Click="AddNewEntry_Click" Content="Add New Entry"/>
     </Grid>
 </Window>

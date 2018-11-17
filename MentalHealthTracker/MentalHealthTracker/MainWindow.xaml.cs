@@ -24,5 +24,10 @@ namespace MentalHealthTracker
         {
             InitializeComponent();
         }
+
+        private void AddNewEntry_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
